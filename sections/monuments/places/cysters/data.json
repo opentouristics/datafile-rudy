@@ -1,0 +1,10 @@
+{
+  "id": "cysters",
+  "section": "monuments",
+  "icon": "ic_cysters",
+  "lat": 50.194124,
+  "lng": 18.449342,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["cysters_1", "cysters_2"]
+}

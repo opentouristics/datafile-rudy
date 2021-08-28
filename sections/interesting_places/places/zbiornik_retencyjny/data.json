@@ -1,0 +1,10 @@
+{
+  "id": "zbiornik_retencyjny",
+  "section": "interesting_places",
+  "icon": "ic_zbiornik_retencyjny",
+  "lat": 50.232685,
+  "lng": 18.423118,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["zbiornik_retencyjny_1", "zbiornik_retencyjny_2", "zbiornik_retencyjny_3"]
+}

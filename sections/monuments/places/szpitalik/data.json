@@ -1,0 +1,10 @@
+{
+  "id": "szpitalik",
+  "section": "monuments",
+  "icon": "ic_szpitalik",
+  "lat": 50.191484,
+  "lng": 18.44592,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["szpitalik_1", "szpitalik_2", "szpitalik_3", "juliusz_roger"]
+}

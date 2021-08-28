@@ -1,0 +1,10 @@
+{
+  "id": "opactwo",
+  "section": "monuments",
+  "icon": "ic_opactwo",
+  "lat": 50.194446,
+  "lng": 18.448287,
+  "website_url": "http://www.rudy-opactwo.pl/",
+  "facebook_url": null,
+  "images": ["opactwo_1", "opactwo_2", "opactwo_3", "opactwo_4", "opactwo_5"]
+}

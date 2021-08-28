@@ -1,0 +1,10 @@
+{
+  "id": "lipki",
+  "section": "interesting_places",
+  "icon": "ic_lipki",
+  "lat": 50.195472,
+  "lng": 18.486639,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["lipki_1", "lipki_2", "lipki_3", "lipki_4"]
+}

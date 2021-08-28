@@ -1,0 +1,10 @@
+{
+  "id": "krolik",
+  "section": "stones",
+  "icon": "ic_krolik",
+  "lat": 50.231,
+  "lng": 18.443267,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["krolik_1", "krolik_2"]
+}

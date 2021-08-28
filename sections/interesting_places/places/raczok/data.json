@@ -1,0 +1,10 @@
+{
+  "id": "raczok",
+  "section": "interesting_places",
+  "icon": "ic_raczok",
+  "lat": 50.188039,
+  "lng": 18.373393,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["raczok_1", "raczok_2"]
+}

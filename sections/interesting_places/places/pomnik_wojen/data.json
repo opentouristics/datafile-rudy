@@ -1,0 +1,10 @@
+{
+  "id": "pomnik_wojen",
+  "section": "interesting_places",
+  "icon": "ic_pomnik_wojen",
+  "lat": 50.197808,
+  "lng": 18.45141,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["pomnik_wojen_1", "pomnik_wojen_2", "pomnik_wojen_3"]
+}

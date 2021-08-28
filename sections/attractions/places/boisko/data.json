@@ -1,0 +1,10 @@
+{
+  "id": "boisko",
+  "section": "attractions",
+  "icon": "ic_boisko",
+  "lat": 50.191563,
+  "lng": 18.44886,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["boisko_1", "boisko_2", "boisko_3"]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "pomnik_schoenawy",
+  "section": "monuments",
+  "icon": "ic_pomnik_schoenawy",
+  "lat": 50.199417,
+  "lng": 18.310278,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["pomnik_schoenawy_1", "pomnik_schoenawy_2", "pomnik_schoenawy_3"]
+}

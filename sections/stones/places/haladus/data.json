@@ -1,0 +1,10 @@
+{
+  "id": "haladus",
+  "section": "stones",
+  "icon": "ic_haladus",
+  "lat": 50.16860,
+  "lng":  18.40909,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["haladus_1", "haladus_2", "haladus_3"]
+}

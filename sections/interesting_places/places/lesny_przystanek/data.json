@@ -1,0 +1,10 @@
+{
+  "id": "lesny_przystanek",
+  "section": "interesting_places",
+  "icon": "ic_lesny_przystanek",
+  "lat": 50.17679,
+  "lng": 18.48603,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["lesny_przystanek_1", "lesny_przystanek_2"]
+}

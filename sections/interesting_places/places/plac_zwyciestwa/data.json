@@ -1,0 +1,10 @@
+{
+  "id": "plac_zwyciestwa",
+  "section": "interesting_places",
+  "icon": "ic_plac_zwyciestwa",
+  "lat": 50.201625,
+  "lng": 18.310803,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["plac_zwyciestwa_1", "plac_zwyciestwa_2", "plac_zwyciestwa_3"]
+}

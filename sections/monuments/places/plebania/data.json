@@ -1,0 +1,10 @@
+{
+  "id": "plebania",
+  "section": "monuments",
+  "icon": "ic_plebania",
+  "lat": 50.193167,
+  "lng": 18.447861,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["plebania_1", "plebania_2", "plebania_3", "plebania_4"]
+}

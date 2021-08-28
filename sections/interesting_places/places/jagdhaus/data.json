@@ -1,0 +1,10 @@
+{
+  "id": "jagdhaus",
+  "section": "interesting_places",
+  "icon": "ic_jagdhaus",
+  "lat": 50.225642,
+  "lng": 18.363041,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["jagdhaus_1", "jagdhaus_2", "jagdhaus_3"]
+}

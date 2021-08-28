@@ -1,0 +1,10 @@
+{
+  "id": "plac_zabaw",
+  "section": "attractions",
+  "icon": "ic_plac_zabaw",
+  "lat": 50.194752,
+  "lng": 18.446207,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["plac_zabaw_1", "plac_zabaw_2", "plac_zabaw_3"]
+}

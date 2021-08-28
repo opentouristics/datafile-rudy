@@ -1,0 +1,10 @@
+{
+  "id": "dublet",
+  "section": "stones",
+  "icon": "ic_dublet",
+  "lat": 50.179083,
+  "lng": 18.429317,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["dublet_1", "dublet_2"]
+}

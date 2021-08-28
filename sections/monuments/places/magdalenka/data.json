@@ -1,0 +1,10 @@
+{
+  "id": "magdalenka",
+  "section": "monuments",
+  "icon": "ic_magdalenka",
+  "lat": 50.25965,
+  "lng": 18.416034,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["magdalenka_1", "magdalenka_2", "magdalenka_3", "magdalenka_4"]
+}

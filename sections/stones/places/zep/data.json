@@ -1,0 +1,10 @@
+{
+  "id": "zep",
+  "section": "stones",
+  "icon": "ic_zep",
+  "lat": 50.182639,
+  "lng": 18.376722,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["zep_1", "zep_2", "zep_3"]
+}

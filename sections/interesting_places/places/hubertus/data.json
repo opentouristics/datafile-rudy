@@ -1,0 +1,10 @@
+{
+  "id": "hubertus",
+  "section": "interesting_places",
+  "icon": "ic_hubertus",
+  "lat": 50.173138,
+  "lng": 18.429484,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["hubertus_1", "hubertus_2", "hubertus_3"]
+}

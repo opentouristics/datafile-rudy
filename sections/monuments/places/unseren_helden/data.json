@@ -1,0 +1,10 @@
+{
+  "id": "unseren_helden",
+  "section": "monuments",
+  "icon": "ic_unseren_helden",
+  "lat": 50.191198,
+  "lng": 18.445905,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["unseren_helden_1", "unseren_helden_2"]
+}

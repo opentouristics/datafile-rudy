@@ -1,0 +1,10 @@
+{
+  "id": "stara_droga",
+  "section": "interesting_places",
+  "icon": "ic_stara_droga",
+  "lat": 50.219638,
+  "lng": 18.454568,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["stara_droga_1", "stara_droga_2", "stara_droga_3"]
+}

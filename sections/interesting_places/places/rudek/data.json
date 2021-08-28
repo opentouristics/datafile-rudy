@@ -1,0 +1,10 @@
+{
+  "id": "rudek",
+  "section": "interesting_places",
+  "icon": "ic_rudek",
+  "lat": 50.195857,
+  "lng": 18.449407,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["rudek_1", "rudek_2"]
+}

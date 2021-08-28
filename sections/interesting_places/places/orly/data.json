@@ -1,0 +1,10 @@
+{
+  "id": "orly",
+  "section": "interesting_places",
+  "icon": "ic_orly",
+  "lat": 50.235568,
+  "lng": 18.450593,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["orly_1", "orly_2", "orly_3"]
+}

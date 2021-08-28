@@ -1,0 +1,10 @@
+{
+  "id": "wildek",
+  "section": "interesting_places",
+  "icon": "ic_wildek",
+  "lat": 50.193252,
+  "lng": 18.404625,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["wildek_1", "wildek_2"]
+}

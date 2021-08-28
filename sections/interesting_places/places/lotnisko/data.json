@@ -1,0 +1,10 @@
+{
+  "id": "lotnisko",
+  "section": "interesting_places",
+  "icon": "ic_lotnisko",
+  "lat": 50.222,
+  "lng": 18.330861,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["lotnisko_1", "lotnisko_2", "lotnisko_3"]
+}

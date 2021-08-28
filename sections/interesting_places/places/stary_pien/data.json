@@ -1,0 +1,10 @@
+{
+  "id": "stary_pien",
+  "section": "interesting_places",
+  "icon": "ic_stary_pien",
+  "lat": 50.211218,
+  "lng": 18.435884,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["stary_pien_1", "stary_pien_2", "stary_pien_3"]
+}

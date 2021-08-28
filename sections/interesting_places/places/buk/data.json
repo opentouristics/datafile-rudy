@@ -1,0 +1,10 @@
+{
+  "id": "buk",
+  "section": "interesting_places",
+  "icon": "ic_buk",
+  "lat": 50.180685,
+  "lng": 18.439263,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["buk_1", "buk_2", "buk_3"]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "osrodek_wodnik",
+  "section": "attractions",
+  "icon": "ic_osrodek_wodnik",
+  "lat": 50.194389,
+  "lng": 18.3055,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["osrodek_wodnik_1", "osrodek_wodnik_2", "osrodek_wodnik_3"]
+}

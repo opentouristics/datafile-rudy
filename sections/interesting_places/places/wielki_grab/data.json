@@ -1,0 +1,10 @@
+{
+  "id": "wielki_grab",
+  "section": "interesting_places",
+  "icon": "ic_wielki_grab",
+  "lat": 50.177669,
+  "lng": 18.402947,
+  "website_url": null,
+  "facebook_url": null,
+  "images": ["wielki_grab_1", "wielki_grab_2"]
+}

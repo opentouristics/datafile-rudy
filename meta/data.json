@@ -1,0 +1,100 @@
+{
+  "region_id": "rudy",
+  "center": {
+    "lat": 50.192766,
+    "lng": 18.448125
+  },
+  "contributors": [
+    "Tomasz Pacia",
+    "Jerzy Pacia",
+    "Ola Pacia",
+    "Oskar Górka",
+    "Damian Marek",
+    "Katarzyna Lubos",
+    "Tomasz Szczansny",
+    "Robert Pabian",
+    "gojgien",
+    "markus13",
+    "Damian Dudek",
+    "Grzegorz Chrośnik",
+    "Paulina Gilner",
+    "Ola Poloczek",
+    "Sebastian Śliwiński",
+    "Martyna Grabowicz",
+    "bianka44",
+    "Izabella Paskuda",
+    "Mariusz C.",
+    "Mysia Marion",
+    "Sylwia Brzezicka-Tesarczyk",
+    "Marcin Gałuszka",
+    "Anna Mainusz",
+    "Anna Kijek",
+    "Tomasz O.",
+    "Oliwia Lubos"
+  ],
+  "featured": [
+    "Rudy",
+    "Kuźnia Raciborska",
+    "Lasy Rudzkie",
+    "Jankowice",
+    "Rzeka Ruda",
+    "Park w Rudach",
+    "Ruda Kozielska"
+  ],
+  "sources": [
+    {
+      "name": "Książka Henryka Siedlaczka pt. \"Rudy - mała wielka ojczyzna\"",
+      "website_url": null
+    },
+    {
+      "name": "Opactwo w Rudach",
+      "website_url": "http://www.rudy-opactwo.pl"
+    },
+    {
+      "name": "Parafia Rudy",
+      "website_url": "https://rudy-parafia.pl"
+    },
+    {
+      "name": "Kolej wąskotorowa w Rudach",
+      "website_url": "http://www.kolejkarudy.pl"
+    },
+    {
+      "name": "Tomasz Szczansny",
+      "website_url": "https://www.tomeksczansny.pl"
+    }
+  ],
+  "links": [
+    {
+      "name": "Facebook Nadleśnictwa Rudy Raciborskie",
+      "website_url": "https://www.facebook.com/rudyraciborskie"
+    },
+    {
+      "name": "Strona Nadleśnictwa Rudy Raciborskie",
+      "website_url": "http://www.rudy-raciborskie.katowice.lasy.gov.pl"
+    },
+    {
+      "name": "Strona Opactwa",
+      "website_url": "http://www.rudy-opactwo.pl"
+    },
+    {
+      "name": "Strona Parafii Rudy",
+      "website_url": "http://rudy-parafia.pl"
+    },
+    {
+      "name": "Portal informacyjny Rudy24",
+      "website_url": "https://rudy24.pl"
+    },
+    {
+      "name": "Blog \"Kuźnia w siodełku\"",
+      "website_url": "http://www.kuzniawsiodelku.pl"
+    },
+    {
+      "name": "Strona kolejki wąskotorowej",
+      "website_url": "http://www.kolejkarudy.pl"
+    },
+    {
+      "name": "MOKSiR w Kuźni Raciborskiej",
+      "website_url": "https://www.facebook.com/kuzniakultury"
+    }
+  ]
+}

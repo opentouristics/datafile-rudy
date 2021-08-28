@@ -1,0 +1,10 @@
+{
+  "id": "stacja_kolei",
+  "section": "monuments",
+  "icon": "ic_stacja_kolei",
+  "lat": 50.1899,
+  "lng": 18.463977,
+  "website_url": "http://www.kolejkarudy.pl",
+  "facebook_url": null,
+  "images": ["stacja_kolei_1", "stacja_kolei_2", "stacja_kolei_3", "stacja_kolei_4"]
+}
