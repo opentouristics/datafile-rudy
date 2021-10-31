@@ -1,0 +1,31 @@
+
+
+name: CI
+
+
+on:
+  push:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  # workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Install database-toolsf
+        run: Installing database-tools
+        
+      - name: Generate datafile
+        run: ./touristdb generate -id $DATAFILE_ID
+
+      - name: Compress datafile
+        run: ./touristdb compress -id $DATAFILE_ID
+        
+      - name: Upload datafile
+        run: echo "Uploading datafile"
