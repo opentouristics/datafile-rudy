@@ -1,6 +1,6 @@
 
 
-name: CI
+name: Distribute datafile
 
 
 on:
@@ -13,19 +13,33 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    env:
+      DATAFILE_ID: rudy
+      DATAFILE_LANG: pl
+      
+      # generate
+      DATAFILE_QUALITY: 1
+      
+      # upload
+      DATAFILE_POSITION: 1
+      
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      
+      - name: Create service account file
+        run: echo "$FIREBASE_SERVICE_ACCOUNT" > ./key.json
 
-      - name: Install database-toolsf
+      - name: Install database-tools
         run: Installing database-tools
         
       - name: Generate datafile
-        run: ./touristdb generate -id $DATAFILE_ID
+        run: ./touristdb generate -id $DATAFILE_ID --lang $DATAFILE_LANG -q $DATAFILE_QUALITY -v
 
       - name: Compress datafile
-        run: ./touristdb compress -id $DATAFILE_ID
+        run: ./touristdb compress -id $DATAFILE_ID -v
         
       - name: Upload datafile
-        run: echo "Uploading datafile"
+        run: echo "Uploading datafile" # ./touristdb upload -id rudy -pos $DATAFILE_POSITION
