@@ -1,6 +1,4 @@
-
-
-name: Distribute datafile
+name: Release datafile
 
 
 on:
