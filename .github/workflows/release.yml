@@ -6,7 +6,7 @@ on:
     branches: [ master ]
 
   # Allows you to run this workflow manually from the Actions tab
-  # workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -30,8 +30,10 @@ jobs:
       - name: Create service account file
         run: echo "$FIREBASE_SERVICE_ACCOUNT" > ./key.json
 
-      - name: Install database-tools
-        run: Installing database-tools
+#       - uses: actions/checkout@v2
+#         with:
+#           repository: bartekpacia/database-tools
+#           token: ${{ secrets.REPO_ACCESS_TOKEN }}
         
       - name: Generate datafile
         run: ./touristdb generate -id $DATAFILE_ID --lang $DATAFILE_LANG -q $DATAFILE_QUALITY -v
