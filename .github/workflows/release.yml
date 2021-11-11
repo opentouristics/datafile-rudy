@@ -1,9 +1,8 @@
 name: Release datafile
 
-
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -11,35 +10,36 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     env:
       DATAFILE_ID: rudy
       DATAFILE_LANG: pl
-      
+
       # generate
       DATAFILE_QUALITY: 1
-      
+
       # upload
       DATAFILE_POSITION: 1
-      
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
+
       - name: Create service account file
         run: echo "$FIREBASE_SERVICE_ACCOUNT" > ./key.json
 
-#       - uses: actions/checkout@v2
-#         with:
-#           repository: bartekpacia/database-tools
-#           token: ${{ secrets.REPO_ACCESS_TOKEN }}
-        
+      - name: Download database-tools
+        run: |
+          curl -LJO -H 'Authorization: token ${{ secrets.GITHUB_TOKEN }}' \
+          'https://github.com/bartekpacia/database-tools/releases/latest/download/touristdb.linux-amd64.tar.gz'
+
+      - uses: Extract database-tools
+
       - name: Generate datafile
         run: ./touristdb generate -id $DATAFILE_ID --lang $DATAFILE_LANG -q $DATAFILE_QUALITY -v
 
       - name: Compress datafile
         run: ./touristdb compress -id $DATAFILE_ID -v
-        
+
       - name: Upload datafile
         run: echo "Uploading datafile" # ./touristdb upload -id rudy -pos $DATAFILE_POSITION
