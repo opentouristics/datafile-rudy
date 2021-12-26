@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: bartekpacia/datafile-rudy
-          path: "datafiles"
+          path: "datafiles/datafile-rudy"
 
       - name: Checkout database-tools
         uses: actions/checkout@v2
