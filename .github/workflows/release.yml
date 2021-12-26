@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     env:
       DATAFILE_ID: rudy
@@ -24,22 +24,26 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+        with:
+          path: "datafiles"
 
       - name: Create service account file
         run: echo "$FIREBASE_SERVICE_ACCOUNT" > ./key.json
 
-      - name: Download database-tools
-        run: |
-          curl -LJO -H 'Authorization: token ${{ secrets.GITHUB_TOKEN }}' \
-          'https://github.com/bartekpacia/database-tools/releases/latest/download/touristdb.linux-amd64.tar.gz'
+      - name: Install shell-scripts
+        run: brew tap bartekpacia/tools && brew install shell-scripts
 
-      - uses: Extract database-tools
+      - name: Source GITHUB_TOKEN
+        run: export GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install database-tools
+        run: brew install database-tools
 
       - name: Generate datafile
-        run: ./touristdb generate -id $DATAFILE_ID --lang $DATAFILE_LANG -q $DATAFILE_QUALITY -v
+        run: touristdb generate -id $DATAFILE_ID --lang $DATAFILE_LANG -q $DATAFILE_QUALITY -v
 
       - name: Compress datafile
-        run: ./touristdb compress -id $DATAFILE_ID -v
+        run: touristdb compress -id $DATAFILE_ID -v
 
       - name: Upload datafile
         run: echo "Uploading datafile" # ./touristdb upload -id rudy -pos $DATAFILE_POSITION
