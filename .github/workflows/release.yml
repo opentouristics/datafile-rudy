@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: bartekpacia/database-tools
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.DATABASE_TOOLS_TOKEN }}
 
       - name: Create service account file
         run: echo "$FIREBASE_SERVICE_ACCOUNT" > ./key.json
