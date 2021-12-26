@@ -38,14 +38,18 @@ jobs:
       - name: Create service account file
         run: echo "$FIREBASE_SERVICE_ACCOUNT" > ./key.json
 
+      - uses: actions/setup-go@v2
+        with:
+          go-version: 1.17
+
       - name: Install database-tools
         run: make
 
       - name: Generate datafile
-        run: touristdb generate -id $DATAFILE_ID --lang $DATAFILE_LANG -q $DATAFILE_QUALITY -v
+        run: ./touristdb generate -id $DATAFILE_ID --lang $DATAFILE_LANG -q $DATAFILE_QUALITY -v
 
       - name: Compress datafile
-        run: touristdb compress -id $DATAFILE_ID -v
+        run: ./touristdb compress -id $DATAFILE_ID -v
 
       - name: Upload datafile
         run: echo "Uploading datafile" # ./touristdb upload -id rudy -pos $DATAFILE_POSITION
