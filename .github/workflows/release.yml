@@ -24,6 +24,8 @@ jobs:
     steps:
       - run: brew install tree
 
+      - run: brew install imagemagick
+
       - name: Checkout database-tools
         uses: actions/checkout@v2
         with:
