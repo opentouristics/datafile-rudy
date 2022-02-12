@@ -59,4 +59,4 @@ jobs:
         run: ./touristdb compress -id $DATAFILE_ID -v
 
       - name: Upload datafile
-        run: echo "Uploading datafile" # ./touristdb upload -id rudy -pos $DATAFILE_POSITION
+        run: ./touristdb upload -id $DATAFILE_ID -pos $DATAFILE_POSITION -v
