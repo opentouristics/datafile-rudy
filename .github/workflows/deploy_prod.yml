@@ -21,10 +21,6 @@ jobs:
       DATAFILE_POSITION: 1
 
     steps:
-      - run: sudo apt install tree
-
-      - run: sudo apt install imagemagick
-
       - name: Checkout database-tools
         uses: actions/checkout@v2
         with:
@@ -32,6 +28,8 @@ jobs:
           token: ${{ secrets.DATABASE_TOOLS_TOKEN }}
 
       - run: pwd && ls -lah && tree
+
+      - run: which magick
 
       - name: Checkout datafile repo
         uses: actions/checkout@v2
