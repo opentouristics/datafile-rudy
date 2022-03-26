@@ -29,8 +29,6 @@ jobs:
 
       - run: pwd && ls -lah && tree
 
-      - run: which magick
-
       - name: Checkout datafile repo
         uses: actions/checkout@v2
         with:
