@@ -27,10 +27,6 @@ jobs:
           repository: bartekpacia/database-tools
           token: ${{ secrets.DATABASE_TOOLS_TOKEN }}
 
-      - run: pwd && ls -lah && tree
-
-      - run: which magick
-
       - name: Checkout datafile repo
         uses: actions/checkout@v2
         with:
@@ -39,8 +35,6 @@ jobs:
 
       - name: Create service account file
         run: echo "$FIREBASE_SERVICE_ACCOUNT" > ./key.json
-
-      - run: pwd && ls -lah && tree
 
       - uses: actions/setup-go@v2
         with:
