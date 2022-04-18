@@ -43,6 +43,9 @@ jobs:
       - name: Install database-tools
         run: make
 
+      - name: print imagemagick version
+        run: magick --version && convert --version
+
       - run: /usr/bin/convert /home/runner/work/datafile-rudy/datafile-rudy/datafiles/datafile-rudy/sections/attractions/places/boisko/images/compressed/ic_boisko.webp -quality 60% -resize 128x128 /home/runner/work/datafile-rudy/datafile-rudy/generated/rudy/images/mini_ic_boisko.webp
 
       - name: Generate datafile
