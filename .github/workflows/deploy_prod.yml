@@ -47,14 +47,6 @@ jobs:
       - name: print convert version
         run: convert --version
 
-      - name: inspect supposedly corrupted image (file)
-        run: file /home/runner/work/datafile-rudy/datafile-rudy/datafiles/datafile-rudy/sections/attractions/places/boisko/images/compressed/ic_boisko.webp
-
-      - name: inspect supposedly corrupted image (cat)
-        run: cat /home/runner/work/datafile-rudy/datafile-rudy/datafiles/datafile-rudy/sections/attractions/places/boisko/images/compressed/ic_boisko.webp
-
-      - run: /usr/bin/convert /home/runner/work/datafile-rudy/datafile-rudy/datafiles/datafile-rudy/sections/attractions/places/boisko/images/compressed/ic_boisko.webp -quality 60% -resize 128x128 /home/runner/work/datafile-rudy/datafile-rudy/generated/rudy/images/mini_ic_boisko.webp
-
       - name: Generate datafile
         run: ./touristdb generate -id $DATAFILE_ID --lang $DATAFILE_LANG --quality $DATAFILE_QUALITY -v
 
