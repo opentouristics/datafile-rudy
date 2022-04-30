@@ -54,4 +54,4 @@ jobs:
         run: ./touristdb compress -id $DATAFILE_ID --verbose
 
       - name: Upload datafile
-        run: ./touristdb upload -id $DATAFILE_ID --position $DATAFILE_POSITION --verbose
+        run: ./touristdb upload -id $DATAFILE_ID --position $DATAFILE_POSITION
