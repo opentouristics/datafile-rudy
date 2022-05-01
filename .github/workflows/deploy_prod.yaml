@@ -11,17 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      # generate, compress, upload
       DATAFILE_ID: rudy
-
-      # generate
-      DATAFILE_QUALITY: 1
-      DATAFILE_LANG: pl
-
-      # compress
-      # no arguments currently
-
-      # upload
+      DATAFILE_LANGUAGE: pl
       DATAFILE_POSITION: 1
 
     steps:
@@ -34,8 +25,8 @@ jobs:
       - name: Checkout datafile repo
         uses: actions/checkout@v3
         with:
-          repository: bartekpacia/datafile-rudy
-          path: "datafiles/datafile-rudy"
+          repository: bartekpacia/datafile-${{ env.DATAFILE_ID }}
+          path: datafiles/datafile-${{ env.DATAFILE_ID }}
           lfs: true
 
       - name: Create service account file
@@ -52,14 +43,5 @@ jobs:
       - name: Install database-tools
         run: make
 
-      - name: print convert version
-        run: convert --version
-
-      - name: Generate datafile
-        run: ./touristdb generate -id $DATAFILE_ID --lang $DATAFILE_LANG --quality $DATAFILE_QUALITY -v
-
-      - name: Compress datafile
-        run: ./touristdb compress -id $DATAFILE_ID --verbose
-
-      - name: Upload datafile
-        run: echo "y" | ./touristdb upload -id $DATAFILE_ID --position $DATAFILE_POSITION --prod
+      - name: publish
+        run: ./publish "$DATAFILE_ID" "$DATAFILE_LANGUAGE" "$DATAFILE_POSITION" --prod
