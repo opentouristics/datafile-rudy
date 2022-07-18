@@ -19,13 +19,13 @@ jobs:
       - name: Checkout database-tools
         uses: actions/checkout@v3
         with:
-          repository: bartekpacia/database-tools
-          token: ${{ secrets.DATABASE_TOOLS_TOKEN }}
+          repository: opentouristics/database-tools
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout datafile repo
         uses: actions/checkout@v3
         with:
-          repository: bartekpacia/datafile-${{ env.DATAFILE_ID }}
+          repository: opentouristics/datafile-${{ env.DATAFILE_ID }}
           path: datafiles/datafile-${{ env.DATAFILE_ID }}
           lfs: true
 
@@ -36,7 +36,8 @@ jobs:
           fileName: key.json
           encodedString: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON_BASE64 }}
 
-      - uses: actions/setup-go@v3
+      - name: Install Go
+        uses: actions/setup-go@v3
         with:
           go-version: 1.18
 
