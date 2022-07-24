@@ -1,2 +1,3 @@
-Ta trasa rowerowa powstała w 2015 roku. W zależności od tego, którą drogę wybierzemy, ścieżka ma 16 lub 23km długości.
-Kliknąłeś na kawałek dłuższego odcinka - 23km.
+Ta trasa rowerowa powstała w 2015 roku. W zależności od tego, którą drogę
+wybierzemy, ścieżka ma 16 lub 23km długości. Kliknąłeś na dłuższy odcinek, który
+ma 23 km.
