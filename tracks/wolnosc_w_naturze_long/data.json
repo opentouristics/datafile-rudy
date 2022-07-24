@@ -1,6 +1,10 @@
 {
   "id": "wolnosc_w_naturze_long",
-  "images": ["wolnosc_w_naturze_3", "wolnosc_w_naturze_2", "wolnosc_w_naturze_1"],
+  "images": [
+    "wolnosc_w_naturze_3",
+    "wolnosc_w_naturze_2",
+    "wolnosc_w_naturze_1"
+  ],
   "coords": [
     {
       "lat": 50.232777,

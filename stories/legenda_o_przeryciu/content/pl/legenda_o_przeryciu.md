@@ -1,6 +1,28 @@
-Przerycie to przysiółek Rud. Mieszkał tam kiedyś człowiek, który sprzedał swą duszę diabłu. Kiedy śmiertelnie zachorował, wyrzuty sumienia które go bardzo dręczyły ukazały mu jego los w piekle. Żałując swojej obietnicy jaką dał diabłu, pragnął przyjąć sakrament chorych. Jego żona, która znała męża udręki, poszła do klasztoru w Rudach z prośbą, aby jeden z mnichów przyszedł do ciężko chorego męża będącego w niezgodzie z Bogiem. Mnich szybko przybył i dowiedział się o tym strasznym fakcie. Chcąc zadośćuczynić prośbom chorego chciał udać się do kaplicy klasztornej po Najświętszy Sakrament. Jednak drogę zastąpił mu diabeł starając się go przekonać, że ta dusza należy do niego, gdyż nabył ją za pokaźną sumę i dlatego powinien ją mieć dla siebie. Na to mnich odpowiedział, że jego obowiązkiem jest walczyć o każdą duszę, która pragnie Chrystusa. Diabeł jednak długo nie ustępował, aż mnich zaproponował mu układ mówiąc: „Ja idę do klasztoru po Najświętszy Sakrament, a ty w międzyczasie przeryj dookoła to pole. Gdy skończysz do mego powrotu, to dusza jest twoja, a w innym przypadku moja”. Diabeł przystał na taką propozycję i ostro wziął się do pracy, natomiast mnich czym prędzej poszedł do klasztoru.
+Przerycie to przysiółek Rud. Mieszkał tam kiedyś człowiek, który sprzedał swą
+duszę diabłu. Kiedy śmiertelnie zachorował, wyrzuty sumienia które go bardzo
+dręczyły ukazały mu jego los w piekle. Żałując swojej obietnicy jaką dał diabłu,
+pragnął przyjąć sakrament chorych. Jego żona, która znała męża udręki, poszła do
+klasztoru w Rudach z prośbą, aby jeden z mnichów przyszedł do ciężko chorego
+męża będącego w niezgodzie z Bogiem. Mnich szybko przybył i dowiedział się o tym
+strasznym fakcie. Chcąc zadośćuczynić prośbom chorego chciał udać się do kaplicy
+klasztornej po Najświętszy Sakrament. Jednak drogę zastąpił mu diabeł starając
+się go przekonać, że ta dusza należy do niego, gdyż nabył ją za pokaźną sumę i
+dlatego powinien ją mieć dla siebie. Na to mnich odpowiedział, że jego
+obowiązkiem jest walczyć o każdą duszę, która pragnie Chrystusa. Diabeł jednak
+długo nie ustępował, aż mnich zaproponował mu układ mówiąc: „Ja idę do klasztoru
+po Najświętszy Sakrament, a ty w międzyczasie przeryj dookoła to pole. Gdy
+skończysz do mego powrotu, to dusza jest twoja, a w innym przypadku moja”.
+Diabeł przystał na taką propozycję i ostro wziął się do pracy, natomiast mnich
+czym prędzej poszedł do klasztoru.
 
-Diabeł pracował zawzięcie, coraz szybciej, czas biegł szybko, pot z niego leciał obficie, oczy błyszczały mu od wysiłku i ciągłego wypatrywania mnicha. Gdy już pozostało mu niewiele do zrobienia, rozmarzył się i wyobrażał sobie jak to niesie duszę chorego do piekła. W tym momencie zjawił się w szalonym tempie wóz konny i zatrzymał się koło drzwi chorego. Wyskoczył z niego mnich, spojrzał na diabła, który jeszcze pracy nie skończył. Diabeł widząc, że przegrał z wielką złością rzucił łopatę o ziemię i podążył do piekła. Dusza chorego była uratowana.
+Diabeł pracował zawzięcie, coraz szybciej, czas biegł szybko, pot z niego leciał
+obficie, oczy błyszczały mu od wysiłku i ciągłego wypatrywania mnicha. Gdy już
+pozostało mu niewiele do zrobienia, rozmarzył się i wyobrażał sobie jak to
+niesie duszę chorego do piekła. W tym momencie zjawił się w szalonym tempie wóz
+konny i zatrzymał się koło drzwi chorego. Wyskoczył z niego mnich, spojrzał na
+diabła, który jeszcze pracy nie skończył. Diabeł widząc, że przegrał z wielką
+złością rzucił łopatę o ziemię i podążył do piekła. Dusza chorego była
+uratowana.
 
 Od tego czasu ta mała osada nazywa się Przerycie.
 
