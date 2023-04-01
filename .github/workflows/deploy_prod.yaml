@@ -6,40 +6,14 @@ on:
       - 'v*'
 
 jobs:
-  build:
+  main:
     runs-on: ubuntu-latest
 
-    env:
-      DATAFILE_ID: rudy
-      DATAFILE_POSITION: 1
-
     steps:
-      - name: Checkout database-tools
-        uses: actions/checkout@v3
+      - name: Deploy datafile
+        uses: otwartaturystyka/deploy-datafile-action@v1
         with:
-          repository: otwartaturystyka/database-tools
-
-      - name: Checkout datafile repo
-        uses: actions/checkout@v3
-        with:
-          repository: otwartaturystyka/datafile-${{ env.DATAFILE_ID }}
-          path: datafiles/datafile-${{ env.DATAFILE_ID }}
-          lfs: true
-
-      - name: Create service account file
-        uses: timheuer/base64-to-file@v1.1
-        with:
-          fileDir: ${{ github.workspace }}
-          fileName: key.json
-          encodedString: ${{ secrets.SERVICE_ACCOUNT_KEY_BASE64 }}
-
-      - name: Install Go
-        uses: actions/setup-go@v3
-        with:
-          go-version-file: go.mod
-
-      - name: Install database-tools
-        run: make
-
-      - name: publish
-        run: ./publish "$DATAFILE_ID" "$DATAFILE_POSITION" --prod
+          id: rudy
+          position: 1
+          prod: true
+          service-account-key-base64: ${{ secrets.SERVICE_ACCOUNT_KEY_BASE64 }}
