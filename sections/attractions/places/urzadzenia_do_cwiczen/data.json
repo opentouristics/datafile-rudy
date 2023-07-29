@@ -1,10 +1,15 @@
 {
   "id": "urzadzenia_do_cwiczen",
   "section": "attractions",
-  "icon": "ic_cwiczenia",
+  "icon": "ic_urzadzenia_do_cwiczen",
   "lat": 50.191245,
   "lng": 18.448565,
   "website_url": null,
   "facebook_url": null,
-  "images": ["cwiczenia_1", "cwiczenia_2", "cwiczenia_3", "cwiczenia_4"]
+  "images": [
+    "urzadzenia_do_cwiczen_1",
+    "urzadzenia_do_cwiczen_2",
+    "urzadzenia_do_cwiczen_3",
+    "urzadzenia_do_cwiczen_4"
+  ]
 }
