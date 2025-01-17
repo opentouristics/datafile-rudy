@@ -69,4 +69,4 @@ Rzeką Roku 2015 w plebiscycie organizowamym przez Klub Gaja.
 ![Łany czosnku niedźwiedziego](czosnek_niedzwiedzi)
 
 > Tekst przygotowało Nadleśnictwo Rudy Raciborskie, a świetne zdjęcia udostępnił
-> Tomasz Szczansny.
+> Tomasz Sczansny.
